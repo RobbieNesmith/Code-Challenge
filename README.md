@@ -31,12 +31,8 @@ Output:
 ### Questions and Answers
 
 * The list will always be positive integers
-* The student must modify the list IN PLACE
-* Students can assume they have a linked list class
-* Students will need to code the reverse method as well as the odometer logic
-  * If you're feeling generous, you can "gift" them .reverse() if they can describe in detail how that works
+* You must modify the list IN PLACE
+* You can assume they have a linked list class
+* You will need to code the reverse method as well as the odometer logic
 
-### Hint
 
-* The preferred solution is to reverse the list, work in sequence adding 1 to each node's value and then carrying (or not) to the next one, and then re-reverse it.
-* This is an O(n) solution (3x traversal, but not nested)
