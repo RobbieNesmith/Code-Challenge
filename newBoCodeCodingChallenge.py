@@ -3,8 +3,9 @@ def odometer(arr, change):
   while pos >= 0 and change != 0:
     sum = arr[pos] + change
     if sum < 0:
-      sum = sum - 10
-    change = int(sum / 10)
+      change = sum
+    else:
+      change = sum // 10
     arr[pos] = sum % 10
     pos = pos - 1
   if change == 1:
